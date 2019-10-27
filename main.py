@@ -10,6 +10,7 @@ GPIO.setwarnings(False)
 GPIO.setup(2, GPIO.OUT)
 GPIO.output(2, False)
 
+# Date settings were changed throughout code. Double Check system wide
 now = datetime.now()
 
 def rain_delay(retrieved_rain, how_long, off, start_time, retreived_rain):
