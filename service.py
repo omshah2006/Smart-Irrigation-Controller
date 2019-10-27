@@ -35,6 +35,7 @@ def messageDecoder(client, userdata, msg):
                     current_dict[key] = definition
                     print("Here in function")
 
+        # Changed code in RPi crash below and above?
         replace_value_with_input('start_time', message)
         current_dict_str = str(current_dict)
         print(current_dict_str)
