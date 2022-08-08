@@ -1,0 +1,6 @@
+framework module Pods_Irrigation_Controller {
+  umbrella header "Pods-Irrigation Controller-umbrella.h"
+
+  export *
+  module * { export * }
+}
